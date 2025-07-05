@@ -1,4 +1,3 @@
-//SORTED ARRAY
 // Linear Search Implementation in Java
 
 class LinearSearch {
@@ -12,8 +11,8 @@ class LinearSearch {
     }
 
     public static void main(String[] args) {
-        int[] arr = { 1, 2, 3, 4, 5 };
-        int target = 4;
+        int[] arr = { 1, 10, 3, 4, 5 };
+        int target = 10;
         int result = linearSearch(arr, target);
 
         if (result != -1) {

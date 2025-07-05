@@ -1,12 +1,12 @@
-//SORTED ARRAY
-// Binary Search Implementation in Java
+// Iterative Binary Search Implementation in Java
+// This code implements a iterative binary search algorithm in Java.
 
 public class BinarySearch {
     public static int binarySearch(int[] arr, int target) {
         int start = 0;
         int end = arr.length - 1;
 
-        for (int i = 0; i< arr.length; i++){
+        while(start<= end) {
             int mid = (start + end) / 2;
             
             if (arr[mid] == target) {
